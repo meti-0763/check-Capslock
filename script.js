@@ -4,7 +4,10 @@ input.addEventListener(`keypress`, (e)=>{
     
     if(e.getModifierState("CapsLock")===true){
         
-        document.querySelector("#warning").style="display:block"
+        document.querySelector("#warning").style.display = "block"
+    }else{
+
+        document.querySelector("#warning").style.display = "none"
     }
 })
 
