@@ -7,8 +7,6 @@ input.addEventListener(`keypress`, (e)=>{
         
         document.querySelector("#warning").style="display:block"
     }
-
-    
 })
 
 
